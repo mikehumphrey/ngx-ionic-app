@@ -1,0 +1,32 @@
+{
+  "generator-ngx-rocket": {
+    "version": "10.1.2",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "OTC-NGX-App",
+      "target": ["cordova"],
+      "mobile": ["ios"],
+      "ui": "ionic",
+      "layout": "side-menu",
+      "features": ["auth", "lazy", "cypress"],
+      "languages": ["en-US"],
+      "tools": ["prettier", "hads"],
+      "utility": ["lodash", "moment"],
+      "projectName": "otc-ngx-app",
+      "packageManager": "npm",
+      "desktop": [],
+      "deploy": "none",
+      "pwa": false,
+      "auth": true,
+      "lazy": true,
+      "e2e": false,
+      "cypress": true,
+      "angulartics": false
+    }
+  }
+}
